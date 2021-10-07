@@ -1,0 +1,64 @@
+-----------------------------
+FTrans 1.1 by Grahame Bowland - release 08/05/98
+-----------------------------
+
+-----------
+Description
+-----------
+
+FTrans is a TI-83 program that calculates the effects of transformations 
+upon functions, and upon points on those functions.
+
+-------------
+How to use it
+-------------
+
+_____________
+Options 1 & 2
+
+Option 1 calculates the effects of the transformation f(x) -> af(bx + c) + d.
+Option 1 calculates the effects of the transformation af(bx + c) + d -> f(x).
+
+Selecting either of these options displays the transformation you have selected. 
+Enter a, b, c, and d as prompted. For example, to examine the effects of a 
+transformation for y = f(x) to y = 2f(2x) I would enter (after selecting 1 from the 
+main menu):
+  2 <enter>
+  2 <enter>
+  0 <enter>
+  0 <enter>
+
+The translations are then displayed one by one, in the order they occur.
+
+_____________
+Options 3 & 4
+
+Option 3 calculates the x and y co-ordinates of a point on y = f(x) that has 
+         undergone a transformation of f(x) -> af(bx + c) + d.
+Option 4 calculates the x and y co-ordinates of a point on y = af(bx + c) + d 
+         that has undergone a tranformation of af(bx + c) + d -> f(x).
+
+Selecting either of these options displays the transformation you have selected. 
+Enter a, b, c, and d as prompted (see example above.)  Then enter the x and y 
+co-ordinates of the point on the initial function. The corresponding x and y 
+coordinates are displayed. You can then enter another set of co-ordinates without 
+entering the details of the transformation again. To leave this cycle, press the 
+ON button.
+
+------
+Author
+------
+
+Grahame Bowland
+Homepage: http://www.wantree.com.au/~bowest/gmb.html
+
+----------------------
+Copyright & Disclaimer
+----------------------
+
+Copyright 1998 Grahame Bowland
+
+This software may be freely distributed as long as the author (Grahame Bowland) is 
+acknowledged. By using this program, you agree to indemnify Grahame Bowland from any 
+liability that may arise from its use. 
+

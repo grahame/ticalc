@@ -1,0 +1,49 @@
+------------------------------                             
+Traject 1.0 by Grahame Bowland - Release 06/05/98
+------------------------------
+
+-----------
+Description
+-----------
+
+This program will find:
+ - Maximum height reached by the object (m)
+ - Final vertical velocity of the object (ms^-1)
+ - Time object is in flight (s)
+ - Range of object  - distance before its hits the ground (m)
+
+Given:
+
+ - Initial speed of the object (ms^-1)
+ - Angle of the object from the horizontal (degrees)
+ - Initial height of the object from the ground (m)
+ - Acceleration due to gravity (ms^-2)
+
+Please note that this program is based upon the following assumptions:
+ - There is no air resistance
+ - The object is undergoing constant acceleration due to gravity
+ - The horizontal velocity of the object remains constant
+
+-------------
+How to use it
+-------------
+
+Simply enter the data required (in the units above) as prompted.
+The results are then displayed.
+
+------
+Author
+------
+
+Grahame Bowland
+Homepage: http://www.wantree.com.au/~bowest/gmb.html
+
+----------------------
+Copyright & Disclaimer
+----------------------
+
+Copyright 1998 Grahame Bowland
+
+This software may be freely distributed as long as the author (Grahame Bowland) is 
+acknowledged. By using this program, you agree to indemnify Grahame Bowland from any 
+liability that may arise from its use. 

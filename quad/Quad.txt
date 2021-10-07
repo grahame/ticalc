@@ -1,0 +1,65 @@
+----------------------------------                             
+Quad Solver 1.0 by Grahame Bowland - release 06/05/98
+----------------------------------
+
+-----------
+Description
+-----------
+
+This utility analyses quadratic equations in several forms and displays:
+ - X Intercepts
+ - Turning Point (X and Y co-ordinates + whether a maximum or minimum)
+ - the Y Intercept
+
+Quad solver will expand and analyse quadratic equations in the 
+following forms:
+ - y = ax^2 + bx + c
+ - y = a(dx + p)^2 + c
+ - y = a(bx + c)(dx + e) + f
+
+------------------------------------
+Using Quad Solver (Menu Items 1 - 3)
+------------------------------------
+
+Select the format of quadratic equation you wish Quad Solver to analyse. Enter the 
+variables (a, b, c...) as you are prompted. If you selected a form other than 
+y = ax^2 + bx + c then Quad Solver will display the equation expanded to this form.
+
+-------------------------------------
+Using the Factor Solver (Menu Item 4)
+-------------------------------------
+
+For the equation y = x^2 + 3x + 2
+
+ - Select 4 from the main menu.
+
+ - Enter: 
+     A = 1
+     B = 3
+     C = 2
+
+ - The program returns:
+   >  F1:2
+   >  F2:1
+
+ - ie y = x^2 + 3x + 2
+      y = X^2 + (2)x + (1)x + 2
+      y = x(x + 2) + 1(x + 2)
+      y = (x + 1)(x + 2)
+
+------
+Author
+------
+
+Grahame Bowland
+Homepage: http://www.wantree.com.au/~bowest/gmb.html
+
+----------------------
+Copyright & Disclaimer
+----------------------
+
+Copyright 1998 Grahame Bowland
+
+This software may be freely distributed as long as the author (Grahame Bowland) is 
+acknowledged. By using this program, you agree to indemnify Grahame Bowland from any 
+liability that may arise from its use. 

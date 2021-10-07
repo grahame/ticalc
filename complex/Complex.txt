@@ -1,0 +1,57 @@
+------------------------------
+Complex 1.0 by Grahame Bowland - release 08/05/98
+------------------------------
+
+-----------
+Description
+-----------
+
+"Complex Numbers" is a TI-83 Program to convert complex numbers between 
+rectanglular form, a + bi, to polar form, R[cos(theta) + isin(theta)] 
+- also written as [r cis(theta)].
+
+-------------
+How to use it
+-------------
+_______________________________________________________
+1: Rectangular form, a + bi, to Polar form, r cis(theta)
+
+Enter a and b as prompted. For example, to convert the equation 
+y = 3 + 4i enter:
+  3 <enter>
+  4 <enter>
+The equation is then converted to polar form, with 
+theta (RADIANS) in the correct quadrant of the unit circle.
+_________________________________________________________
+2: Polar form, r cis(theta), to  Rectangular form, a + bi
+
+Enter r and theta as prompted. Note that theta must be entered in 
+RADIANS or enter the angle in degrees followed by a degree symbol - 
+found on the Angle Menu. For example, to convert the equation 
+y = 5 cis(60°), enter:
+  5 <enter>
+  60 <2nd><Matrx><1><enter>
+
+To convert the equation y = 5 cis (pi / 4), enter:
+  5 <enter>
+  pi / 4 <enter>
+
+The converted form of the equation is then displayed.
+
+------
+Author
+------
+
+Grahame Bowland
+Homepage: http://www.wantree.com.au/~bowest/gmb.html
+
+----------------------
+Copyright & Disclaimer
+----------------------
+
+Copyright 1998 Grahame Bowland
+
+This software may be freely distributed as long as the author (Grahame Bowland) is 
+acknowledged. By using this program, you agree to indemnify Grahame Bowland from any 
+liability that may arise from its use. 
+

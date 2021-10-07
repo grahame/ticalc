@@ -1,0 +1,44 @@
+-------------------------------                             
+VClosest 1.0 by Grahame Bowland - Release 06/05/98
+-------------------------------
+
+-----------
+Description
+-----------
+
+This is a utility to find the shortest distance between two three 
+dimensional velocity vectors (components i, j, k).
+
+-------------
+How to use it
+-------------
+
+Enter the position vectors and velocity vectors as prompted. 
+VClosest will display two results:
+
+>       T: 0
+>       DIST: <a number>
+>       OR
+>       T: <a time>
+>       DIST: <a number>
+
+This is because the program uses a quadratic equation which 
+has two solutions. Just choose the result with the lowest 
+distance.
+
+------
+Author
+------
+
+Grahame Bowland
+Homepage: http://www.wantree.com.au/~bowest/gmb.html
+
+----------------------
+Copyright & Disclaimer
+----------------------
+
+Copyright 1998 Grahame Bowland
+
+This software may be freely distributed as long as the author (Grahame Bowland) is 
+acknowledged. By using this program, you agree to indemnify Grahame Bowland from any 
+liability that may arise from its use. 

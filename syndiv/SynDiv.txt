@@ -1,0 +1,88 @@
+-----------------------------                             
+SynDiv 1.0 by Grahame Bowland - release 06/05/98
+-----------------------------
+
+-----------
+Description
+-----------
+
+Given an equation of degree n in the form:
+  ax^n + bx^(n-1) + cx^(n-2) .... + px^(0)
+SynDiv will attempt find a factor in the form (x + z).
+
+-------------
+How to use it
+-------------
+
+Enter the degree of the equation (the highest power of x) and enter the 
+number of each power present. ie For x^5 + x^3 + 3x^2 + x I would input:
+  5 <enter> - the degree of the equation
+  1 <enter> - no. x^5 terms
+  0 <enter> - no. x^4 terms
+  1 <enter> - no. x^3 terms
+  3 <enter> - no. x^2 terms
+  1 <enter> - no. x^1 terms
+  0 <enter> - no. x^0 terms
+
+Then choose whether to allow the program to search for a root or to enter 
+the root manually (a root is a number which, when substituted into the equation causes 
+the equation to equal zero.)
+
+______________
+1: Auto Search
+
+If you select Auto Search then you will be prompted for "Delta R". This is the increment 
+by which the program increases its guess each repeat. Typically, set this to 0.1. You are then 
+prompted for "Start" - the number that the search looks to the left and right of. Typically 
+set this to 0.
+
+The program then displays that it is searching and the numbers currently being checked. When a 
+root is found the program displays its results.
+
+_____________
+2: Enter Root
+
+Upon selecting this option you are prompted for the "Root".  You should only use this option if
+you know the root or wish to find whether a number is the root. If the number you enter is not 
+the root you are prompted:
+	ERROR
+        FINAL d/n= 0
+        RESTART!
+Ignore any results that are given after this message.
+
+________________________
+Interpreting the Results
+
+The results are then displayed - if you received an error message then disregard these results.
+To show how to read the results, I will give an example.
+
+FACTOR:X+1
+X^6:
+X^5:
+X^4:
+X^3:
+X^2:1
+X^1:2
+X^0:0
+
+This can be reconstructed to:
+Factor * (no. x^6 + no. x^5 + no. x^4 + no. x^3 + no. x^2 + no. x^1 + no. x^0)
+= (x+1)(x^2 + 2x)
+
+------
+Author
+------
+
+Grahame Bowland
+Homepage: http://www.wantree.com.au/~bowest/gmb.html
+
+----------------------
+Copyright & Disclaimer
+----------------------
+
+Copyright 1998 Grahame Bowland
+
+This software may be freely distributed as long as the author (Grahame Bowland) is 
+acknowledged. By using this program, you agree to indemnify Grahame Bowland from any 
+liability that may arise from its use. 
+
